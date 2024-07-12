@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
 import Car  from './components/Car';
+import Apple from './components/Apple';
 
 
 
@@ -13,6 +13,7 @@ function Grange (){
     <div>
       <h1>This Grange </h1>
       <Car/>
+      <Apple/> 
     </div>
   )
 }
