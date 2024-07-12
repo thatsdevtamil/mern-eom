@@ -9,10 +9,18 @@ import Apple from './components/Apple';
 
 
 function Grange (){
+
+  //  const brand = "Ford";
+  //  const color = "Blank";
+
+  const carINfo = {brand: 'Forad', color: 'Blak'}
+
   return (
     <div>
-      <h1>This Grange </h1>
-      <Car/>
+      <h1>This Grange</h1>
+      {/* <Car brand = {brand} color = {color}/> */}
+
+      <Car carInfo = {carINfo}/>
       <Apple/> 
     </div>
   )
