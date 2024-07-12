@@ -4,10 +4,26 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import Car  from './components/Car';
+
+function Car(){
+  return (
+    <h1> I,m Car for TATA</h1>
+  )
+}
+
+function Grange (){
+  return (
+    <div>
+      <h1>This Grange </h1>
+      <Car/>
+    </div>
+  )
+}
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Grange />
   </React.StrictMode>
 );
 
