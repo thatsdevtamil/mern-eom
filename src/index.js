@@ -6,11 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import Car  from './components/Car';
 
-function Car(){
-  return (
-    <h1> I,m Car for TATA</h1>
-  )
-}
+
 
 function Grange (){
   return (
